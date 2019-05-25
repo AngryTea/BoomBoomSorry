@@ -42,7 +42,8 @@
         "next": [
             3
         ],
-        "type": "housePlayer1"
+        "type": "house",
+        "player": 1
     },
     {
         "id": 6,
@@ -51,7 +52,8 @@
         "next": [
             3
         ],
-        "type": "housePlayer1"
+        "type": "house",
+        "player": 1
     },
     {
         "id": 7,
@@ -60,7 +62,8 @@
         "next": [
             3
         ],
-        "type": "housePlayer1"
+        "type": "house",
+        "player": 1
     },
     {
         "id": 8,
@@ -69,7 +72,8 @@
         "next": [
             3
         ],
-        "type": "housePlayer1"
+        "type": "house",
+        "player": 1
     },
     {
         "id": 9,
@@ -130,7 +134,8 @@
         "x": 500,
         "y": 0,
         "next": [
-            16,20
+            16,
+            20
         ],
         "type": "normal"
     },
@@ -141,7 +146,8 @@
         "next": [
             17
         ],
-        "type": "housePlayer2"
+        "type": "house",
+        "player": 2
     },
     {
         "id": 17,
@@ -150,7 +156,8 @@
         "next": [
             18
         ],
-        "type": "housePlayer2"
+        "type": "house",
+        "player": 2
     },
     {
         "id": 18,
@@ -159,14 +166,16 @@
         "next": [
             19
         ],
-        "type": "housePlayer2"
+        "type": "house",
+        "player": 2
     },
     {
         "id": 19,
         "x": 500,
         "y": 200,
         "next": [],
-        "type": "housePlayer2"
+        "type": "house",
+        "player": 2
     },
     {
         "id": 20,
@@ -182,7 +191,8 @@
         "x": 600,
         "y": 0,
         "next": [
-            22,45
+            22,
+            45
         ],
         "type": "normal"
     },
@@ -209,7 +219,8 @@
         "x": 750,
         "y": 0,
         "next": [
-            25,30
+            25,
+            30
         ],
         "type": "normal"
     },
@@ -337,7 +348,8 @@
         "next": [
             36
         ],
-        "type": "housePlayer2"
+        "type": "house",
+        "player": 2
     },
     {
         "id": 39,
@@ -346,7 +358,8 @@
         "next": [
             36
         ],
-        "type": "housePlayer2"
+        "type": "house",
+        "player": 2
     },
     {
         "id": 40,
@@ -355,7 +368,8 @@
         "next": [
             36
         ],
-        "type": "housePlayer2"
+        "type": "house",
+        "player": 2
     },
     {
         "id": 41,
@@ -364,7 +378,8 @@
         "next": [
             36
         ],
-        "type": "housePlayer2"
+        "type": "house",
+        "player": 2
     },
     {
         "id": 42,
@@ -524,7 +539,8 @@
         "x": 1000,
         "y": 400,
         "next": [
-            60, 64
+            60,
+            64
         ],
         "type": "normal"
     },
@@ -535,7 +551,8 @@
         "next": [
             61
         ],
-        "type": "housePlayer3"
+        "type": "house",
+        "player": 3
     },
     {
         "id": 61,
@@ -544,7 +561,8 @@
         "next": [
             62
         ],
-        "type": "housePlayer3"
+        "type": "house",
+        "player": 3
     },
     {
         "id": 62,
@@ -553,15 +571,16 @@
         "next": [
             63
         ],
-        "type": "housePlayer3"
+        "type": "house",
+        "player": 3
     },
     {
         "id": 63,
         "x": 800,
         "y": 400,
-        "next": [
-        ],
-        "type": "housePlayer3"
+        "next": [],
+        "type": "house",
+        "player": 3
     },
     {
         "id": 64,
@@ -577,7 +596,8 @@
         "x": 1000,
         "y": 500,
         "next": [
-            89, 66
+            89,
+            66
         ],
         "type": "normal"
     },
@@ -595,7 +615,8 @@
         "x": 1000,
         "y": 600,
         "next": [
-            68,73
+            68,
+            73
         ],
         "type": "normal"
     },
@@ -714,7 +735,8 @@
         "next": [
             78
         ],
-        "type": "housePlayer3"
+        "type": "house",
+        "player": 3
     },
     {
         "id": 81,
@@ -723,7 +745,8 @@
         "next": [
             78
         ],
-        "type": "housePlayer3"
+        "type": "house",
+        "player": 3
     },
     {
         "id": 82,
@@ -732,7 +755,8 @@
         "next": [
             78
         ],
-        "type": "housePlayer3"
+        "type": "house",
+        "player": 3
     },
     {
         "id": 83,
@@ -741,7 +765,8 @@
         "next": [
             78
         ],
-        "type": "housePlayer3"
+        "type": "house",
+        "player": 3
     },
     {
         "id": 84,
@@ -919,7 +944,8 @@
         "x": 500,
         "y": 800,
         "next": [
-            104,108
+            104,
+            108
         ],
         "type": "normal"
     },
@@ -930,7 +956,8 @@
         "next": [
             105
         ],
-        "type": "housePlayer4"
+        "type": "house",
+        "player": 4
     },
     {
         "id": 105,
@@ -939,7 +966,8 @@
         "next": [
             106
         ],
-        "type": "housePlayer4"
+        "type": "house",
+        "player": 4
     },
     {
         "id": 106,
@@ -948,14 +976,16 @@
         "next": [
             107
         ],
-        "type": "housePlayer4"
+        "type": "house",
+        "player": 4
     },
     {
         "id": 107,
         "x": 500,
         "y": 600,
         "next": [],
-        "type": "housePlayer4"
+        "type": "house",
+        "player": 4
     },
     {
         "id": 108,
@@ -971,7 +1001,8 @@
         "x": 400,
         "y": 800,
         "next": [
-            110,133
+            110,
+            133
         ],
         "type": "normal"
     },
@@ -998,7 +1029,8 @@
         "x": 250,
         "y": 800,
         "next": [
-            113,118
+            113,
+            118
         ],
         "type": "normal"
     },
@@ -1126,7 +1158,8 @@
         "next": [
             124
         ],
-        "type": "housePlayer4"
+        "type": "house",
+        "player": 4
     },
     {
         "id": 127,
@@ -1135,7 +1168,8 @@
         "next": [
             124
         ],
-        "type": "housePlayer4"
+        "type": "house",
+        "player": 4
     },
     {
         "id": 128,
@@ -1144,7 +1178,8 @@
         "next": [
             124
         ],
-        "type": "housePlayer4"
+        "type": "house",
+        "player": 4
     },
     {
         "id": 129,
@@ -1153,7 +1188,8 @@
         "next": [
             124
         ],
-        "type": "housePlayer4"
+        "type": "house",
+        "player": 4
     },
     {
         "id": 130,
@@ -1313,7 +1349,8 @@
         "x": 0,
         "y": 400,
         "next": [
-            148,152
+            148,
+            152
         ],
         "type": "normal"
     },
@@ -1324,7 +1361,8 @@
         "next": [
             149
         ],
-        "type": "housePlayer1"
+        "type": "house",
+        "player": 1
     },
     {
         "id": 149,
@@ -1333,23 +1371,26 @@
         "next": [
             150
         ],
-        "type": "housePlayer1"
+        "type": "house",
+        "player": 1
     },
     {
         "id": 150,
         "x": 150,
         "y": 400,
         "next": [
-           151
+            151
         ],
-        "type": "housePlayer1"
+        "type": "house",
+        "player": 1
     },
     {
         "id": 151,
         "x": 200,
         "y": 400,
         "next": [],
-        "type": "housePlayer1"
+        "type": "house",
+        "player": 1
     },
     {
         "id": 152,
@@ -1365,7 +1406,8 @@
         "x": 0,
         "y": 300,
         "next": [
-            154,167
+            154,
+            167
         ],
         "type": "normal"
     },
@@ -1500,7 +1542,8 @@
         "x": 0,
         "y": 200,
         "next": [
-            169,174
+            169,
+            174
         ],
         "type": "normal"
     },
@@ -1594,5 +1637,4 @@
         ],
         "type": "normal"
     }
-    
 ]

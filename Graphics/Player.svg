@@ -9,21 +9,30 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="744.09448819"
-   height="1052.3622047"
+   width="320"
+   height="320"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="Defaultfield.svg">
+   sodipodi:docname="Player.svg">
   <defs
      id="defs4">
     <filter
        inkscape:collect="always"
-       id="filter3779">
+       id="filter3779"
+       color-interpolation-filters="sRGB">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="2.4142857"
          id="feGaussianBlur3781" />
+    </filter>
+    <filter
+       inkscape:collect="always"
+       id="filter3768">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="2.4142857"
+         id="feGaussianBlur3770" />
     </filter>
   </defs>
   <sodipodi:namedview
@@ -33,16 +42,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="403.70923"
-     inkscape:cy="620.27273"
+     inkscape:zoom="1.4"
+     inkscape:cx="196.75102"
+     inkscape:cy="223.92697"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="2069"
      inkscape:window-height="1114"
-     inkscape:window-x="647"
-     inkscape:window-y="1562"
+     inkscape:window-x="777"
+     inkscape:window-y="1529"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -52,29 +61,30 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-732.36218)">
     <path
        sodipodi:type="arc"
-       style="fill:#393939;fill-opacity:1;stroke:none;filter:url(#filter3779)"
+       style="fill:#393939;fill-opacity:1;stroke:none;filter:url(#filter3768)"
        id="path3761"
        sodipodi:cx="246.42857"
        sodipodi:cy="815.93359"
        sodipodi:rx="120.71429"
        sodipodi:ry="120.71429"
        d="m 367.14286,815.93359 a 120.71429,120.71429 0 1 1 -241.42857,0 120.71429,120.71429 0 1 1 241.42857,0 z"
-       transform="matrix(1.1530055,0,0,1.1530055,-46.419218,-117.84229)"
+       transform="matrix(1.1856904,0,0,1.1856904,-132.188,-75.082481)"
        inkscape:export-filename="C:\Users\D064996\git\BoomBoomSorry\Graphics\Player.png"
        inkscape:export-xdpi="92.550003"
        inkscape:export-ydpi="92.550003" />
     <path
-       transform="matrix(1.1530055,0,0,1.1530055,-48.419218,-119.84229)"
+       transform="matrix(1.1856904,0,0,1.1856904,-134.2447,-77.139176)"
        d="m 367.14286,815.93359 a 120.71429,120.71429 0 1 1 -241.42857,0 120.71429,120.71429 0 1 1 241.42857,0 z"
        sodipodi:ry="120.71429"
        sodipodi:rx="120.71429"

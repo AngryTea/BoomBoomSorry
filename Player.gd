@@ -1,6 +1,7 @@
 extends Node2D
 
 var player = 0
+var currentField: Node2D
 
 
 func constructor(playerNumber: int):

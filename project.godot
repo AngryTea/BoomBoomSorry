@@ -22,6 +22,7 @@ config/icon="res://icon.png"
 [autoload]
 
 PlayerInfo="*res://PlayerInfo.gd"
+CurrentTurnState="*res://CurrentTurnState.gd"
 
 [display]
 

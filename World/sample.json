@@ -42,7 +42,7 @@
         "next": [
             3
         ],
-        "type": "house",
+        "type": "base",
         "player": 1
     },
     {
@@ -52,7 +52,7 @@
         "next": [
             3
         ],
-        "type": "house",
+        "type": "base",
         "player": 1
     },
     {
@@ -62,7 +62,7 @@
         "next": [
             3
         ],
-        "type": "house",
+        "type": "base",
         "player": 1
     },
     {
@@ -72,7 +72,7 @@
         "next": [
             3
         ],
-        "type": "house",
+        "type": "base",
         "player": 1
     },
     {
@@ -348,7 +348,7 @@
         "next": [
             36
         ],
-        "type": "house",
+        "type": "base",
         "player": 2
     },
     {
@@ -358,7 +358,7 @@
         "next": [
             36
         ],
-        "type": "house",
+        "type": "base",
         "player": 2
     },
     {
@@ -368,7 +368,7 @@
         "next": [
             36
         ],
-        "type": "house",
+        "type": "base",
         "player": 2
     },
     {
@@ -378,7 +378,7 @@
         "next": [
             36
         ],
-        "type": "house",
+        "type": "base",
         "player": 2
     },
     {
@@ -735,7 +735,7 @@
         "next": [
             78
         ],
-        "type": "house",
+        "type": "base",
         "player": 3
     },
     {
@@ -745,7 +745,7 @@
         "next": [
             78
         ],
-        "type": "house",
+        "type": "base",
         "player": 3
     },
     {
@@ -755,7 +755,7 @@
         "next": [
             78
         ],
-        "type": "house",
+        "type": "base",
         "player": 3
     },
     {
@@ -765,7 +765,7 @@
         "next": [
             78
         ],
-        "type": "house",
+        "type": "base",
         "player": 3
     },
     {
@@ -1158,7 +1158,7 @@
         "next": [
             124
         ],
-        "type": "house",
+        "type": "base",
         "player": 4
     },
     {
@@ -1168,7 +1168,7 @@
         "next": [
             124
         ],
-        "type": "house",
+        "type": "base",
         "player": 4
     },
     {
@@ -1178,7 +1178,7 @@
         "next": [
             124
         ],
-        "type": "house",
+        "type": "base",
         "player": 4
     },
     {
@@ -1188,7 +1188,7 @@
         "next": [
             124
         ],
-        "type": "house",
+        "type": "base",
         "player": 4
     },
     {

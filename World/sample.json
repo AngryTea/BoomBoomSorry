@@ -141,7 +141,7 @@
         "next": [
             17
         ],
-        "type": "housePlayer1"
+        "type": "housePlayer2"
     },
     {
         "id": 17,
@@ -150,7 +150,7 @@
         "next": [
             18
         ],
-        "type": "housePlayer1"
+        "type": "housePlayer2"
     },
     {
         "id": 18,
@@ -159,14 +159,14 @@
         "next": [
             19
         ],
-        "type": "housePlayer1"
+        "type": "housePlayer2"
     },
     {
         "id": 19,
         "x": 500,
         "y": 200,
         "next": [],
-        "type": "housePlayer1"
+        "type": "housePlayer2"
     },
     {
         "id": 20,
@@ -387,7 +387,7 @@
     {
         "id": 44,
         "x": 1000,
-        "y": 250,
+        "y": 300,
         "next": [
             58
         ],
@@ -509,5 +509,466 @@
             44
         ],
         "type": "normal"
-    }
+    },
+    {
+        "id": 58,
+        "x": 1000,
+        "y": 350,
+        "next": [
+            59
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 59,
+        "x": 1000,
+        "y": 400,
+        "next": [
+            60, 64
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 60,
+        "x": 950,
+        "y": 400,
+        "next": [
+            61
+        ],
+        "type": "housePlayer3"
+    },
+    {
+        "id": 61,
+        "x": 900,
+        "y": 400,
+        "next": [
+            62
+        ],
+        "type": "housePlayer3"
+    },
+    {
+        "id": 62,
+        "x": 850,
+        "y": 400,
+        "next": [
+            63
+        ],
+        "type": "housePlayer3"
+    },
+    {
+        "id": 63,
+        "x": 800,
+        "y": 400,
+        "next": [
+        ],
+        "type": "housePlayer3"
+    },
+    {
+        "id": 64,
+        "x": 1000,
+        "y": 450,
+        "next": [
+            65
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 65,
+        "x": 1000,
+        "y": 500,
+        "next": [
+            89, 66
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 66,
+        "x": 1000,
+        "y": 550,
+        "next": [
+            67
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 67,
+        "x": 1000,
+        "y": 600,
+        "next": [
+            68,73
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 68,
+        "x": 950,
+        "y": 600,
+        "next": [
+            69
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 69,
+        "x": 900,
+        "y": 600,
+        "next": [
+            70
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 70,
+        "x": 850,
+        "y": 600,
+        "next": [
+            71
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 71,
+        "x": 800,
+        "y": 600,
+        "next": [
+            72
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 72,
+        "x": 750,
+        "y": 600,
+        "next": [
+            173
+        ],
+        "type": "gondolaTogether"
+    },
+    {
+        "id": 73,
+        "x": 1000,
+        "y": 650,
+        "next": [
+            74
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 74,
+        "x": 1000,
+        "y": 700,
+        "next": [
+            75
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 75,
+        "x": 1000,
+        "y": 750,
+        "next": [
+            76
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 76,
+        "x": 1000,
+        "y": 800,
+        "next": [
+            77
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 77,
+        "x": 950,
+        "y": 800,
+        "next": [
+            78
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 78,
+        "x": 900,
+        "y": 800,
+        "next": [
+            79
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 79,
+        "x": 850,
+        "y": 800,
+        "next": [
+            84
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 80,
+        "x": 850,
+        "y": 750,
+        "next": [
+            78
+        ],
+        "type": "housePlayer3"
+    },
+    {
+        "id": 81,
+        "x": 850,
+        "y": 700,
+        "next": [
+            78
+        ],
+        "type": "housePlayer3"
+    },
+    {
+        "id": 82,
+        "x": 900,
+        "y": 700,
+        "next": [
+            78
+        ],
+        "type": "housePlayer3"
+    },
+    {
+        "id": 83,
+        "x": 900,
+        "y": 750,
+        "next": [
+            78
+        ],
+        "type": "housePlayer3"
+    },
+    {
+        "id": 84,
+        "x": 800,
+        "y": 800,
+        "next": [
+            85
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 85,
+        "x": 750,
+        "y": 800,
+        "next": [
+            86
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 86,
+        "x": 700,
+        "y": 800,
+        "next": [
+            87
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 87,
+        "x": 650,
+        "y": 800,
+        "next": [
+            88
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 88,
+        "x": 600,
+        "y": 800,
+        "next": [
+            108
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 89,
+        "x": 950,
+        "y": 500,
+        "next": [
+            90
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 90,
+        "x": 900,
+        "y": 500,
+        "next": [
+            91
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 91,
+        "x": 850,
+        "y": 500,
+        "next": [
+            92
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 92,
+        "x": 800,
+        "y": 500,
+        "next": [
+            93
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 93,
+        "x": 750,
+        "y": 500,
+        "next": [
+            94
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 94,
+        "x": 700,
+        "y": 500,
+        "next": [
+            95
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 95,
+        "x": 650,
+        "y": 500,
+        "next": [
+            96
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 96,
+        "x": 600,
+        "y": 500,
+        "next": [
+            97
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 97,
+        "x": 600,
+        "y": 550,
+        "next": [
+            98
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 98,
+        "x": 600,
+        "y": 600,
+        "next": [
+            99
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 99,
+        "x": 600,
+        "y": 650,
+        "next": [
+            100
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 100,
+        "x": 600,
+        "y": 700,
+        "next": [
+            101
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 101,
+        "x": 600,
+        "y": 750,
+        "next": [
+            88
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 102,
+        "x": 550,
+        "y": 800,
+        "next": [
+            103
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 103,
+        "x": 500,
+        "y": 800,
+        "next": [
+            104,108
+        ],
+        "type": "normal"
+    },
+    {
+        "id": 104,
+        "x": 500,
+        "y": 750,
+        "next": [
+            105
+        ],
+        "type": "housePlayer4"
+    },
+    {
+        "id": 105,
+        "x": 500,
+        "y": 700,
+        "next": [
+            106
+        ],
+        "type": "housePlayer4"
+    },
+    {
+        "id": 106,
+        "x": 500,
+        "y": 650,
+        "next": [
+            107
+        ],
+        "type": "housePlayer4"
+    },
+    {
+        "id": 107,
+        "x": 500,
+        "y": 600,
+        "next": [
+            
+        ],
+        "type": "housePlayer4"
+    },
+    {
+        "id": 108,
+        "x": 450,
+        "y": 800,
+        "next": [
+            104,108
+        ],
+        "type": "normal"
+    },
+    
+    
+    
 ]

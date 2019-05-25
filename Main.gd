@@ -7,14 +7,11 @@ func _ready():
 	
 	#load world
 	var loader = WorldLoader.new()
-	loader.generateWorldBasedOnLoadedData(get_node("Fields"), get_node("Houses"), get_node("Bases"))
+	loader.generateWorldBasedOnLoadedData(get_node("Fields"), get_node("Houses"), get_node("Bases"))	
+	setPlayerInHouses()
 	
-#	self.print_tree_pretty()
-	
-	
-	#set player on an node
-	var pos = get_node("Fields/22").position
-	var player = Player.instance()
-	player.constructor(PlayerInfo.PLAYER1)
-	player.position = pos
-	add_child(player)
+func setPlayerInHouses():
+	for base in get_node("Bases").get_children():
+		var player = Player.instance()
+		player.constructor(base.playerNumber)
+		base.add_child(player)

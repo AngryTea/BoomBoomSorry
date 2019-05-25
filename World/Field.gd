@@ -12,7 +12,7 @@ func constructor(field_info):
 	
 	self.position.x = x + 30
 	self.position.y = y + 30
-	self.id = field_info.id
+	self.name = str(field_info.id)
 	
 	#add node to group depending on node typ
 	if field_info.type =="normal":

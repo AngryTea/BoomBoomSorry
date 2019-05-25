@@ -19,6 +19,10 @@ config/name="BoomBoomSorry"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+PlayerInfo="*res://PlayerInfo.gd"
+
 [display]
 
 window/size/width=1920

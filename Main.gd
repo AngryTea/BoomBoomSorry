@@ -24,11 +24,14 @@ func setPlayerInHouses():
 		playerDict[player.player].append( player)
 
 func _input(event):
-	if Input.is_action_pressed("P1_right"):
-		#reset player colors
-		for i in playerDict[PlayerInfo.PLAYER1]:
-			i.defaultColor()
-		
-		selectedPlayerIndex = (selectedPlayerIndex +1) % 4 
-		playerDict[PlayerInfo.PLAYER1][selectedPlayerIndex].highlightToTarget()
+	if CurrentTurnState.isState(CurrentTurnState.SELECT_FIGURE, PlayerInfo.PLAYER1):
+		if Input.is_action_pressed("P1_right"):
+			#reset player colors
+			for i in playerDict[PlayerInfo.PLAYER1]:
+				i.defaultColor()
+			
+			selectedPlayerIndex = (selectedPlayerIndex +1) % 4 
+			playerDict[PlayerInfo.PLAYER1][selectedPlayerIndex].highlightToTarget()
+		if Input.is_action_pressed("P1_accept"):
+			CurrentTurnState.goToRollDiceToMove()
 		

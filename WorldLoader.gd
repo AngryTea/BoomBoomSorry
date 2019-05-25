@@ -2,7 +2,7 @@ extends Node
 
 const Field = preload("res://World/Field.tscn")
 
-var data = {}
+var data = []
 
 
 func _init():
